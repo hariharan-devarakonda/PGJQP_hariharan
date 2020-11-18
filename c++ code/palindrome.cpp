@@ -11,7 +11,7 @@ class Palin
         do
         {
            rem=num%10;
-           rev=rev*10+num;
+           rev=(rev*10)+rem;
            num=num/10;
         }while (num!=0);
 
@@ -23,7 +23,7 @@ class Palin
         }
         else
             cout<<"Number is not a palindrome"<<endl;
-    }i
+    }
 };
 int main()
 {
