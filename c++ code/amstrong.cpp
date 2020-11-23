@@ -8,18 +8,18 @@ class Amstrong
         cout<<"Enter a number:";
         cin>>num;
         n=num;
-        while(n>0)
+        while(n!=0)
         {
-            rem=num%10;
-            sum=sum+rem*rem*rem;
-            num=num/10;
+            rem=n%10;
+            sum=sum+(rem*rem*rem);
+            n=n/10;
         }
-        if(num==sum)
+        if(sum==num)
         {
-            cout<<"Its an amstrong number"<<endl;
+            cout<<"Its an amstrong number"<<num<<endl;
         }
         else
-            cout<<"Its not an amstrong number"<<endl;
+            cout<<"Its not an amstrong number"<<num<<endl;
 
     }
 };
