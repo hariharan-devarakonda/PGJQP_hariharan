@@ -1,0 +1,2 @@
+A class can accomplish data abstraction and encapsulation using access specifiers.
+There are 3 types of access specifiers : Private, Public,Protected.

@@ -1,0 +1,4 @@
+A friend function can be used for accessing the private member functions of  a class.
+A class can allow non member functions and other classes to access there own private data
+by making them their friend .But a friend class has complete access of private members of
+another class without being member of the class.
